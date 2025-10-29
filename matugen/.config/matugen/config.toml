@@ -1,0 +1,10 @@
+[config]
+
+[templates.fish_theme]
+input_path = "/home/veradust/.config/matugen/templates/fish_theme.fish.template"
+output_path = "/home/veradust/.config/fish/conf.d/matugen_colors.fish"
+post_hook = "fish -c 'set -U matugen_theme_updated (date)'"
+
+[templates.kitty]
+input_path = "/home/veradust/.config/matugen/templates/kitty.conf.template"
+output_path = "/home/veradust/.config/kitty/dank-theme.conf"
